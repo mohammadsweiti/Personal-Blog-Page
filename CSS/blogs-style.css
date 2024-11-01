@@ -1,0 +1,30 @@
+@import url(style1.css);
+@import url(footer-desing.css);
+
+body{
+    display: grid;
+    grid-template-columns: 10% 80% 10%;
+    grid-template-rows: 3% 85% 11%;
+    grid-template-areas: 
+    "top top top"
+    "bottom1 bottom2 bottom3"
+    "foot foot foot"
+    ;
+}
+
+header{
+    grid-area: top;
+}
+main{
+    grid-area: bottom2;
+    text-align: center;
+    /* border: 1px dashed darkblue; */
+}
+
+footer{
+    grid-area: foot;
+    margin-top: 100px;
+}
+.posts{
+    border: 1px dotted darkgreen;
+}
