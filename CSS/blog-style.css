@@ -1,0 +1,84 @@
+.content{
+    display: grid;
+    grid-template-columns: 5fr 2fr;
+    grid-template-areas: 
+    "left1" "right2";
+    grid-gap: 20px;
+    padding: 3px;
+    margin: 2px;
+   
+}
+.post-me{
+    grid-area: right2;
+}
+
+aside{
+    grid-area: left1;
+}
+.posts{
+    text-align: center;
+    display: grid;
+    /* grid-template-columns: 4fr  ; */
+    grid-template-rows: 0.5fr 2fr 0.3fr 0.1fr 0.2fr;
+    grid-template-areas: 
+    "top2" 
+    "image2"
+    "first-paragraph2"
+    "second-paragraph3"
+    "datepub2"
+    ;
+    /* grid-gap: 10px; */
+    border-bottom: 1px solid #ddd;
+}
+
+.heading{
+    grid-area: top2;
+    color: #333;
+    font-size: 30px;
+    font-weight:bold ;
+}
+
+.heading-me{
+    grid-area: top2;
+    color: #333;
+    font-size: 30px;
+    font-weight:bold ;
+}
+
+.post-img{
+    grid-area: image2;
+    width: 100%;
+    height: auto;
+}
+
+.date {
+    color: #888;
+    font-size: 24px;
+    height: 100%;
+}
+.par1{
+    grid-area: first-paragraph2;
+    height: 100%;
+
+}
+.par1-me{
+    grid-area: first-paragraph2;
+    height: 5%;
+
+}
+.par2{
+    grid-area: second-paragraph3;
+    height: 100%;
+
+}
+
+.par2-me{
+    grid-area: second-paragraph3;
+    height: 5%;
+
+}
+
+.par3{
+    grid-area: datepub2;
+    height: 100%;
+}
