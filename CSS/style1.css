@@ -48,3 +48,32 @@ header nav ul li a:hover {
     background-color: wheat;
     
 }
+
+/* Media queries */
+@media only screen and (max-width: 800px){
+    header{
+        background-color: red;
+        height: 16vh;
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    header h1 .name{
+        text-decoration: none;
+        padding: 10px;
+        color: rgb(7, 7, 7);
+    }
+    
+    header h1 .name .logo{
+        display: none;
+    }
+
+    header nav ul li {
+        list-style: none;
+        display: flex;
+        width: 50vw;
+        justify-content: space-evenly; 
+    }
+    
+}
