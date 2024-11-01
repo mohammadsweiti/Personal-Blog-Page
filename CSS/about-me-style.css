@@ -1,0 +1,30 @@
+@import url(footer-desing.css);
+@import url(style1.css);
+body{
+    display: grid;
+    grid-template-columns: 1fr 0.9fr;
+    grid-template-rows:0.2fr 1fr 0.3fr;
+    grid-template-areas: 
+    "head head"
+    "image about"
+    "foot foot";
+    padding: 5px;
+    margin: 5px;
+    grid-gap: 10px;
+}
+header{
+    grid-area: head;
+}
+aside.right{
+    grid-area: image;
+}
+aside.left{
+    grid-area: about;
+}
+footer{
+    grid-area: foot;
+}
+.par{
+    /* width: 30vw; */
+    /* height: auto; */
+}
