@@ -11,6 +11,7 @@
     <title>Mohammad Sweiti</title>
     <link rel="stylesheet" href="../CSS/style1.css" />
     <link rel="stylesheet" href="../CSS/blog-style.css" />
+    <link rel="stylesheet" href="../CSS/footer-desing.css" />
   </head>
   <body>
     <header>
@@ -52,7 +53,7 @@
           Published on <span class="date">November 1, 2024</span>
         </p>
       </section>
-      <aside>
+      <aside class="first-aside">
         <section class="posts">
           <h2 class="heading">How I Built My First Project: A coffe machine</h2>
           <img
@@ -146,7 +147,65 @@
       </aside>
     </main>
     <footer>
-      <p>© 2024 My Blog. All rights reserved.</p>
+      <aside class="second-aside">
+        <section class="socail-media">
+          <a href=""><img src="../assets/facebook.png" alt="" /></a>
+          <a href=""><img src="../assets/telegram.png" alt="" /></a>
+          <a href=""><img src="../assets/ins.png" alt="" /></a>
+        </section>
+        <h2>my universtiy Email</h2>
+        <p>211098@ppu.edu.ps</p>
+        <h2>my general Email</h2>
+        <p>Mohammadsweity57669@gmail.com</p>
+        <h2>my phone number</h2>
+        <p>0568496083</p>
+      </aside>
+      <section class="right-footer">
+        <h2>Contact me</h2>
+        <h3>Ask me anthing</h3>
+        <form action="">
+          <table>
+            <tbody>
+              <tr>
+                <td><label for="fname">First name </label></td>
+                <td><label for="Lname">Last name </label></td>
+              </tr>
+              <tr>
+                <td><input type="text" name="fname" id="fname" /></td>
+                <td><input type="text" name="lname" id="Lname" /></td>
+              </tr>
+              <tr>
+                <td colspan="2"><label for="Cemail">Email</label></td>
+              </tr>
+              <tr>
+                <td colspan="2">
+                  <input type="email" id="Cemail" name="email" required />
+                </td>
+              </tr>
+              <tr>
+                <td colspan="2">
+                  <label for="mes">Leave me a message </label>
+                </td>
+              </tr>
+              <tr>
+                <td colspan="2">
+                  <textarea name="message" id="mes"></textarea>
+                </td>
+              </tr>
+            </tbody>
+            <tfoot>
+              <tr>
+                <td>
+                  <input type="submit" value="submit" />
+                </td>
+                <td>
+                  <input type="reset" />
+                </td>
+              </tr>
+            </tfoot>
+          </table>
+        </form>
+      </section>
     </footer>
   </body>
 </html>

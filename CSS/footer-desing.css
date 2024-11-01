@@ -1,0 +1,29 @@
+footer{
+    background-color: #414141;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-areas: 
+    "right-contact left-contact";
+    padding: 15px;
+}
+
+.second-aside{
+    grid-area: right-contact;
+}
+
+.right-footer{
+    grid-area: left-contact;
+}
+input,
+textarea
+{
+    background-color:#414141 ;
+}
+
+[type=submit],
+[type=reset]
+{
+    border: white 2px solid;
+    height: 55px;
+    width: 95px;
+}

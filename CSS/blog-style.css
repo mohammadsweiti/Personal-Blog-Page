@@ -6,20 +6,21 @@
     grid-gap: 20px;
     padding: 3px;
     margin: 2px;
-   
+    grid-gap: 5px;
 }
 .post-me{
     grid-area: right2;
+    background-color: #333;
 }
 
-aside{
+.first-aside{
     grid-area: left1;
 }
 .posts{
     text-align: center;
     display: grid;
     /* grid-template-columns: 4fr  ; */
-    grid-template-rows: 0.5fr 2fr 0.3fr 0.1fr 0.2fr;
+    grid-template-rows: 0.2fr 2fr 0.3fr 0.1fr 0.2fr;
     grid-template-areas: 
     "top2" 
     "image2"
@@ -34,6 +35,7 @@ aside{
 .heading{
     grid-area: top2;
     color: #333;
+    background-color: beige;
     font-size: 30px;
     font-weight:bold ;
 }
