@@ -27,3 +27,48 @@ textarea
     height: 55px;
     width: 95px;
 }
+
+@media screen and (max-width:600px){
+
+    footer{
+        background-color: red;
+        display: grid;
+        grid-template-columns: 40% 40%;
+        grid-template-areas: 
+        "right-contact left-contact";
+        padding: 15px;
+    }
+    
+    .second-aside{
+        grid-area: right-contact;
+    }
+    
+    .right-footer{
+        grid-area: left-contact;
+    }
+
+}
+
+@media (min-width:600px)and (max-width:1100px){
+
+    footer{
+        background-color: rgb(68, 0, 255);
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-areas: 
+        "right-contact left-contact";
+        padding: 15px;
+    }
+    
+    .second-aside{
+        grid-area: right-contact;
+    }
+    
+    .right-footer{
+        grid-area: left-contact;
+        body{
+        width: 70%;
+        height: 70%;
+        }
+    }
+}

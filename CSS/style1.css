@@ -80,3 +80,21 @@ header nav ul li a:hover {
     }
     
 }
+@media (min-width:800px) and (max-width: 1200px){
+
+    header{
+        background-color: blue;
+        height: 16vh;
+        width: 50vw;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    header h1 .name{
+        text-decoration: none;
+        padding: 10px;
+        color: rgb(7, 7, 7);
+    }
+    
+    
+}

@@ -24,7 +24,51 @@ aside.left{
 footer{
     grid-area: foot;
 }
-.par{
-    /* width: 30vw; */
-    /* height: auto; */
+
+@media screen and (min-width:500px) {
+    body{
+        background-color: red;
+        display: grid;
+        grid-template-columns: 0.5fr 0.45fr;
+        grid-template-rows:0.1fr 0.5fr 0.1.5fr;
+        grid-template-areas: 
+        "head head"
+        "image about"
+        "foot foot";
+        padding: 5px;
+        margin: 5px;
+        /* grid-gap: 10px; */
+    }
+
+    @media (min-width:500px)and(max-width:1000px) {
+        body{
+            background-color: red;
+            display: grid;
+            grid-template-columns: 1fr 0.8fr;
+            grid-template-rows:0.1fr 0.5fr 0.1.5fr;
+            grid-template-areas: 
+            "head head"
+            "image about"
+            "foot foot";
+            padding: 5px;
+            margin: 5px;
+            /* grid-gap: 10px; */
+        }
+    
+        
+    }
+    header{
+        grid-area: head;
+    }
+    aside.right{
+        grid-area: image;
+    }
+    aside.left{
+        grid-area: about;
+    }
+    footer{
+        grid-area: foot;
+    }
+
+    
 }
