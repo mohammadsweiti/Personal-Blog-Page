@@ -11,12 +11,15 @@
 .post-me{
     grid-area: right2;
     background-color: #333;
+    border: #ee0101 solid 1px;
 }
 
 .first-aside{
     grid-area: left1;
 }
 .posts{
+    border: darkred 1px dotted;
+    margin-bottom: 25px;
     text-align: center;
     display: grid;
     /* grid-template-columns: 4fr  ; */
